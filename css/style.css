@@ -1,0 +1,29 @@
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrap {
+    max-width: 375px;
+    width: 375px;
+    border: 1px solid #000;
+}
+
+#wrap>.main {
+    height: 230px;
+    background-color: #eee;
+}
+
+#wrap>.hourly {
+    height: 100px;
+    background-color: #888;
+}
+
+#wrap>.week {
+    height: 320px;
+    background-color: #666;
+}

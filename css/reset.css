@@ -1,0 +1,62 @@
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* a 링크 초기화 */
+a {
+    color: initial;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+/* 리스트 초기화*/
+ol,
+ul,
+li,
+dl dt,
+dd {
+    list-style: none;
+    margin: 0;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'anton';
+}
+
+button,
+input {
+    border: none;
+}
