@@ -12,41 +12,57 @@
 
 <body>
     <div id="wrap">
+        <div class="header">
+            <div class="city-name"></div>
+        </div>
         <div class="main">
-            <div class="icon"></div>
             <div class="main-txt">
-                <span class="temp"></span>
-                <span class="city"></span>
-                <span class="weather"></span>
-                <span class="date"></span>
+                <div class="icon">
+                    <img src="" alt="날씨 아이콘">
+                </div>
+                <div class="temp">
+                    <span>32</span>
+                </div>
+                <div class="week-txt">
+                    <span>sunday</span>
+                    <span>주소</span>
+                </div>
             </div>
             <div class="detail">
-                <div class="sun"></div>
-                <div class="pressure"></div>
-                <div class="humidity"></div>
+                <div class="wind">
+                    <span>Wind <em>(m/s)</em></span>
+                    <span>ese 17 mph</span>
+                </div>
+                <div class="humidity">
+                    <span>Humidity <em>(%)</em></span>
+                    <span>83%</span>
+                </div>
+                <div class="pressure">
+                    <span>
+                        Pressure
+                    </span>
+                    <span>28.56</span>
+                </div>
+                <div class="temp">
+                    <span>
+                        Temp <em>(max˚/min˚)</em>
+                    </span>
+                    <span>28.56</span>
+                </div>
             </div>
         </div>
-        <div class="hourly">
-            <ul class="lists">
-                <li class="list">
-                    <span class="hourly-time"></span>
-                    <span class="hourly-icon"></span>
-                    <span class="hourly-temp"></span>
-                </li>
-            </ul>
+        <div class="more">
+            <div class="hourly">
+                <ul class="lists">
+                </ul>
+            </div>
+            <div class="week">
+                <ul class="lists"></ul>
+            </div>
         </div>
-        <div class="week">
-            <div></div>
-            <ul>
-                <li>
-                    <span class="week-time"></span>
-                    <span class="week-icon"></span>
-                    <span class="week-temp"></span>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script src="js/index.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/time.js"></script>
+        <script src="js/index.js"></script>
 </body>
 
 </html>

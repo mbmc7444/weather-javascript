@@ -53,10 +53,16 @@ dd {
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'anton';
+
 }
 
 button,
 input {
     border: none;
+}
+
+em {
+    font-style: normal;
+    font-size: 12px;
+    color: #b8b8b8;
 }
